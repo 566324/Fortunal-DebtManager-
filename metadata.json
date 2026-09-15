@@ -1,0 +1,6 @@
+{
+  "name": "Fortunal DebtManager",
+  "description": "Know who owes. Know when. Get paid. Smart debt, credit-sales, payment and collection-management assistant for individuals and small businesses.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

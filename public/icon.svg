@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="gradBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="gradPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="gradAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+  </defs>
+  <!-- Background with subtle corner radius -->
+  <rect width="512" height="512" rx="128" fill="url(#gradBg)" />
+  
+  <!-- Outer tracking circular pulse / management ring -->
+  <circle cx="256" cy="256" r="176" stroke="#334155" stroke-width="24" stroke-linecap="round" stroke-dasharray="800" stroke-dashoffset="180" />
+  <circle cx="256" cy="256" r="176" stroke="url(#gradAccent)" stroke-width="24" stroke-linecap="round" stroke-dasharray="800" stroke-dashoffset="520" />
+  
+  <!-- Central payment coin -->
+  <circle cx="256" cy="256" r="120" fill="url(#gradPrimary)" />
+  
+  <!-- Inner coin rim -->
+  <circle cx="256" cy="256" r="102" stroke="#6EE7B7" stroke-width="8" stroke-dasharray="16 12" opacity="0.6" />
+  
+  <!-- Crisp verified checkmark -->
+  <path d="M196 260L236 300L316 212" stroke="#FFFFFF" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
