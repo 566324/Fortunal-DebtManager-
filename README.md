@@ -59,4 +59,4 @@ The project is being developed with a focus on practical debt management, paymen
 
 Fortunal DebtManager
 
-Know who owes. Know when. Get paid.
+Know who owes. Know when. Get paid!
